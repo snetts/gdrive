@@ -30,7 +30,7 @@ This will show the amount of data downloaded (-b) and the rate of download (-r) 
 
 # Authenticate
 
-# remove the token file
-rm ~/.gdrive/token_v2.json
-# run the about subcommand to re-prompt you for authentication:
-gdrive about
+Remove the token file
+`rm ~/.gdrive/token_v2.json`
+Run the about sub command to re-prompt you for authentication:
+`gdrive about`
