@@ -27,3 +27,10 @@ gdrive download --stdout 0B7_OwkDsUIgFWXA1B2FPQfV5S8H | \
   pv -br -L 90k | \
   cat > file.ext
 This will show the amount of data downloaded (-b) and the rate of download (-r) and limit that rate to 90 kiB/s (-L 90k).
+
+# Authenticate
+
+# remove the token file
+rm ~/.gdrive/token_v2.json
+# run the about subcommand to re-prompt you for authentication:
+gdrive about
